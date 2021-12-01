@@ -1,0 +1,129 @@
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa {
+  position: relative;
+  display: table-cell !important;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: 'Font Awesome 5 Pro'
+}
+
+.main-menu:hover,
+ul.main-menu.expanded {
+  width: 250px;
+  overflow: visible;
+}
+
+.main-menu {
+  background: #fbfbfb;
+  border-right: 1px solid #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 60px;
+  overflow: hidden;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  z-index: 1000;
+}
+
+.main-menu > ul {
+  margin: 7px 0;
+}
+
+.main-menu li {
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.main-menu .nav-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+  font-family: "Titillium Web", sans-serif;
+  text-transform: capitalize;
+}
+
+.main-menu .subitem {
+  margin-left: 60px;
+}
+
+.main-menu .subitem a {
+  display: table-cell;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.main-menu .subitem:hover {
+  background-color: #ffbc00;
+}
+
+.main-menu .subitem:hover a {
+  color: #fff;
+}
+
+.main-menu:hover .subitem,
+nav.main-menu.expanded .subitem {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.main-menu .logo {
+  padding: 10px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: #393939;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #ffbc00;
+    text-decoration: underline;
+  }
+  
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }

@@ -4,7 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-
+src/node_modules
+src/package-lock.json
+public/fontawesome-pro-5.15.4-web
 # testing
 /coverage
 

@@ -1,0 +1,35 @@
+.navbar-icon-list {
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+.navbar-icon {
+  font-size: 24px;
+}
+.txt-success {
+  color: #07a5e6;
+}
+
+.navbar-icon .nav-btn {
+  background: none;
+  border: none;
+}
+
+span.user-name-in {
+  font-size: 14px;
+  font-weight: 900;
+  color: #4c4c4c;
+  text-transform: uppercase;
+}
+
+span.user-email-in {
+  font-size: 12px;
+  font-weight: 300;
+  color: #808080;
+}
+
+@media (min-width: 1400px) {
+  .container-xxxl {
+    max-width: 1825px;
+  }
+}
